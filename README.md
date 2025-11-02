@@ -46,7 +46,7 @@ The **AI Patent CPC Code Classifier** predicts multiple CPC codes for a given pa
 
 **Examples:**
 
-* ` G06N20/00` — Machine learning
+* `G06N20/00` — Machine learning
 * `G06N3/045` — Combinations of networks
 
 -Data scraped from [Google Patents](https://patents.google.com/) using `Selenium` <br>
