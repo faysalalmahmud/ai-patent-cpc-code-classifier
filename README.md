@@ -101,7 +101,7 @@ The deployment section is placed immediately after model training. The project i
 
 <br>
 
-**2. Flask App:**
+**2. Flask App (Render):**
 <br>
 <img src="docs/flask_app_screenshot.png" height="450">
 * Located in the `docs/` folder.
