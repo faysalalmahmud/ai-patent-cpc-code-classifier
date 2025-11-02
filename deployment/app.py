@@ -23,5 +23,11 @@ def classify_cpc_code(abstract):
   return dict(zip(cpc_code, map(float, probs))) 
 
 label = gr.Label(num_top_classes=5)
-iface = gr.Interface(fn=classify_cpc_code, inputs="text", outputs=label)
+iface = gr.Interface(
+    fn=classify_cpc_code,
+    inputs="text",
+    outputs=label, 
+    examples=
+      ["An artificial intelligence moving agent is launched. The artificial intelligence moving agent according to an embodiment of the present invention includes a camera that captures an image, and an object, and provides an image of the object to an artificial intelligence model to obtain information on the type of the object, and the object and a processor for acquiring correction type information designated by a user with respect to the captured image, and training the artificial intelligence model by using the correction type information."]
+    )
 iface.launch(inline=False)
