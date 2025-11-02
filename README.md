@@ -107,7 +107,7 @@ The deployment section is placed immediately after model training. The project i
 * Located in the `docs/` folder.
 * Uses the selected transformer model via **Hugging Face API**.
 * Hosted on **Render** for web access and integration.
-* Link: [Flask App](https://patent-cpc-code-classifier.onrender.com)
+* Link: [Flask App](https://ai-patent-cpc-code-classifier.onrender.com)
 
 ---
 
